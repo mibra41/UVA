@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <friends>
+
+        <friend met="UVA" current="UVA">
+            <name>Siddharth</name>
+            <email>s@uva.edu</email>
+        </friend>
+
+        <friend>
+            <name>Muhammad</name>
+            <email>m@uva.edu</email>
+        </friend>
+
+        <friend>
+            <name>Aditya</name>
+            <email>a@uva.edu</email>
+        </friend>
+
+    </friends>

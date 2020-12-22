@@ -1,0 +1,257 @@
+<?php
+    $name = "";
+    $overall = 0;
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="muhvies-style.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>Mohvies</title>
+</head>
+
+<body >
+
+        <!--
+           contains header 
+        -->
+    <header>
+
+
+        <nav class="navbar navbar-expand-md navbar-light" >
+            <a class="navbar-brand title-style" href="home-page.html">Mohvies</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home-page.html"> Rankings </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home-page.html"> Polls </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home-page.html"> Coming Soon </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rate-movie.html"> Rate a Movie </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mohvies-login.html"> Sign In </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <!--
+           main content 
+        -->
+    <div style="background-color: rgb(64, 92, 89);" >
+        <form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST">
+        <div id="main" class="row justify-content-center">
+        <!--
+           table has most of the form 
+        -->
+            <div id="column1" class="col-7" style="background-color: teal; margin-top: 10px; margin-bottom: 10px">
+                    <table class="table-represent justify-content-center" style="width: 100%; background-color: teal">
+                        <tr style=" font-size: 1.7em; ">
+                            <th class="heading-style">
+                                <h2>RATE A MOVIE</h2>
+                            </th>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                    <span style="color: red">*</span>Movie Name <br>
+                                <input style="font-size: 15px" type="text" placeholder="Enter Movie Name" 
+                                id="movie" style="margin-top: 1.5%; margin-bottom: 0.5%;" autofocus>
+                                <div style="color: #ff1a1a; font-size: 18px;" id="check-movie"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style="color: red">*</span>Overall  <br>
+                                <select id="overall" style="font-size: 18px">
+                                    <option value="select">Select an Option</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <div style="color: #ff1a1a; font-size: 18px;" id="check-overall"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Acting <br>
+                                <select id="acting" style="font-size: 18px">
+                                    <option value="select">Select an Option</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                    Story <br>
+                                        <select id="story" style="font-size: 18px">
+                                            <option value="select">Select an Option</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Cinematography <br>
+                                        <select id="cinematography" style="font-size: 18px">
+                                            <option value="select">Select an Option</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Family-Friendly <br>
+                                        <select id="family" style="font-size: 18px">
+                                            <option value="select">Select an Option</option>
+                                            <option value="yes">Yes</option>
+                                            <option value="no">No</option>
+                                        </select>
+                                    </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Review
+                            </td>
+                        </tr>
+                    </table>
+        <!--
+           text area had to be outside of table for cleanliness purposes 
+        -->
+                    <div class="txtcont">
+                        <textarea rows=10 cols=80></textarea>
+                    </div>
+                    <div style="margin-bottom:10px; justify-content: center">
+                        <button style="margin-left: 45%; margin-right: 45%" type="submit" id="submit" class="btn btn-primary">Submit</button>
+                    </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <!--
+           contains footer 
+        -->
+    <footer class="page-footer">
+            <div>
+                
+                <nav class="navbar navbar-expand-md navbar-light">
+                        <small class="copyright" style="color:black;">Copyright&copy; 2019 MUHSID Corp</small>
+                        <div class="collapse navbar-collapse justify-content-end" id="navBar">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="home-page.html"> <small>Rankings</small>  </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="home-page.html"> <small>Polls</small> </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="home-page.html"> <small>Coming Soon</small></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="rate-movie.html"> <small>Rate a Movie</small> </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mohvies-login.html"> <small>Sign In</small> </a>
+                                    </li>
+                
+                                </ul>
+                            </div>
+    
+                </nav>
+                    
+    
+            </div>
+            
+        </footer>
+
+        <script>
+            //submit function is the onclick function for the submit button
+            // performs input validation, and hides the main div and creates a new one for the thank you screen.
+            function submit() {
+                document.getElementById("check-overall").innerHTML = ""
+                document.getElementById("check-movie").innerHTML = ""
+                var overall = document.getElementById("overall").value
+                if (overall == "select") {
+                    document.getElementById("check-overall").innerHTML = "You cannot leave the overall field blank"
+                }
+
+                var name = document.getElementById("movie").value
+                if (name == "") {
+                    document.getElementById("check-movie").innerHTML = "You cannot leave the name field blank"
+                    return
+                }
+                
+                document.getElementById("column1").style.display = "none"
+                var msg = document.createElement("div")
+                msg.setAttribute("style", "font-family: 'Amatic SC', cursive, bold; color: teal; height: 580px; width: 100%, text-align: center; justify-content: center; font-size: 70px")
+                msg.setAttribute("id", "msgdiv")
+                msg.innerHTML = "Thank you for your review, <br> Have a Mohvelous day!"
+                var maindiv = document.getElementById("main")
+                maindiv.appendChild(msg)
+
+
+            }
+            
+        </script>
+
+</body>
+
+
+</html>

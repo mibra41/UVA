@@ -1,0 +1,25 @@
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background: #003366;
+    color: white;
+    text-align: left;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+body {
+    background: "red";
+    color: "orange";
+}
+

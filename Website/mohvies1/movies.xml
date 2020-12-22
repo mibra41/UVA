@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Movies>
+    
+    
+   
+    <Movie>
+        <title>High Life</title>
+        <UsersWatched>448</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMDNjN2NjYmItMjAyZi00NmNkLWJmYTQtYzcwZGRiM2RmNGNlXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_SY1000_SX675_AL_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>Mard Ko Dard Nahi Hota</title>
+        <UsersWatched>432</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMjkwZTVlODQtODUzOS00NGJkLWFlNmItYTc2MDVhM2NhNzcwXkEyXkFqcGdeQXVyOTg4MzcyNzQ@._V1_.jpg</link>
+    </Movie>
+
+    <Movie>
+        <title>Captain Marvel</title>
+        <UsersWatched>334</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>Pet Semetary</title>
+        <UsersWatched>325</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMjUyNjg1ODIwMl5BMl5BanBnXkFtZTgwNjMyOTYzNzM@._V1_SY1000_CR0,0,640,1000_AL_.jpg</link>
+    </Movie>
+    
+    <Movie>
+        <title>Free Solo</title>
+        <UsersWatched>238</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMjMwYjcwNWQtNTQ5YS00MzVlLTkxYzMtNDIwZWIxZTE4Zjg2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,666,1000_AL_.jpg</link>
+    </Movie>
+    
+    <Movie>
+        <title>Gully Boy</title>
+        <UsersWatched>74</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BZDkzMTQ1YTMtMWY4Ny00MzExLTkzYzEtNzZhOTczNzU2NTU1XkEyXkFqcGdeQXVyODY3NjMyMDU@._V1_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>Super Deluxe</title>
+        <UsersWatched>534</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BNDE2MjY5Y2YtZGI4MC00Yjg2LTljZGItYTIwMzY0NmMxYjU3XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>Avengers: Infinity War</title>
+        <UsersWatched>75</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>What We Do In The Shadows</title>
+        <UsersWatched>95</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMTA3MjE0MjU2ODheQTJeQWpwZ15BbWU4MDcwNzc1NDcz._V1_SY1000_SX800_AL_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>Majili</title>
+        <UsersWatched>205</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMDNlYjk0NDctODk2NC00ZmE0LWI2ZjAtZjY5ZWFhNzk5YzY5XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_SY1000_CR0,0,685,1000_AL_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>Shazam</title>
+        <UsersWatched>646</UsersWatched>
+        <link>http://cdn.collider.com/wp-content/uploads/2018/12/shazam-poster-1.jpg</link>
+    </Movie>
+    
+    <Movie>
+        <title>Aquaman</title>
+        <UsersWatched>192</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SY1000_CR0,0,674,1000_AL_.jpg</link>
+    </Movie>
+    <Movie>
+        <title>Dumbo</title>
+        <UsersWatched>101</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BNjMxMDE0MDI1Ml5BMl5BanBnXkFtZTgwMzExNTU3NjM@._V1_SY1000_CR0,0,675,1000_AL_.jpg</link>
+    </Movie>
+
+    <Movie>
+        <title>Us</title>
+        <UsersWatched>707</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg</link>
+    </Movie>
+    
+    <Movie>
+        <title>Beach Bum</title>
+        <UsersWatched>152</UsersWatched>
+        <link>https://m.media-amazon.com/images/M/MV5BMTY3MDUzMTAzOV5BMl5BanBnXkFtZTgwNDk3ODQyNzM@._V1_SY1000_CR0,0,675,1000_AL_.jpg</link>
+    </Movie>
+    
+</Movies>

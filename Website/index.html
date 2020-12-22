@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">     <!-- require for IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">   <!-- ensure display and zoom properly, based on screen width --> 
+    
+    <meta name="author" content="define author of the page -- your name">
+    <meta name="description" content="define a description of this page">
+    <meta name="keywords" content="define, keywords, for, search, engines, separated, by, commas">
+        
+    <title>Example home page</title>     <!-- specify title in a browser tab -->
+    
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+  </head>
+
+  <body>
+
+    <header class="primary-header container">
+      <div class="row">
+        <div class="col-2">
+          <h1 class="logo">
+            <a href="index.html">Mohvies</a>
+          </h1>
+        </div>      
+        
+        <!-- id attribute points to format specified in fadeshow id selector, to hide nav when screen is narrow
+             Note: business logic should be taken into account when deciding whether to hide a portion of screen
+             (design decision must be made) -->
+        <div class="col-10" id="fadeshow"> 
+          
+          <!-- class attribute points to nav and primary-nav selectors, 
+               notice we use primary-nav in addition to nav to create the top menu-like navigation (compared with the footer nav) -->
+          <nav class="nav primary-nav">   
+            <ul>
+              <li><a href="index.html" >Rankings</a></li>
+              <li><a  href="software.html" >Polls</a></li>
+              <li><a  href="research.html" >Coming Soon</a></li>
+              <li><a  href="activity.html" >Rate a Movie</a></li>
+              <li><a  href="contact.html" >Sign In</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>  
+    </header>
+    
+    <div class="row">
+      <div class="col-12">
+        <section class="title container">
+          <h2>Your Destination for All Things Movies!</h2>
+        </section>
+      </div>
+    </div>
+  
+    <!-- highlight / showcase -->        
+    <section class="content-row row">
+    <h2 style= "text-align: center;">What movies are hot this week!</h2>
+      <div class="grid">
+            <section class="highlight content-col col-4">
+                    <a href="highlight1.html">
+                      <img src="images/highlight1.png" alt="image showing highlight1"> <br/>
+                      <text class="subtitle">your-awesome-project1</text>
+                    </a>
+                    <p>brief description about this project (probably phases or 2-3 sentences)</p>
+                  </section>
+      
+        <section class="highlight content-col col-4">
+          <a href="highlight1.html">
+            <img src="images/highlight1.png" alt="image showing highlight1"> <br/>
+            <text class="subtitle">your-awesome-project1</text>
+          </a>
+          <p>brief description about this project (probably phases or 2-3 sentences)</p>
+        </section>
+
+        <section class="highlight content-col col-4">
+          <a href="highlight2.html">
+            <img src="images/highlight2.png" alt="image showing highlight2"> <br/>
+            <text class="subtitle">your-awesome-project2</text>
+          </a>
+          <p>brief description about this project (probably phases or 2-3 sentences)</p>
+        </section>
+ 
+        <section class="highlight content-col col-4">
+          <a href="highlight3.html">
+            <img src="images/highlight3.png" alt="image showing highlight3"> <br/>
+            <text class="subtitle">your-awesome-project1</text>
+          </a>
+          <p>brief description about this project (probably phases or 2-3 sentences)</p>
+        </section>
+        
+      </div>
+    </section>
+  
+    <footer class="primary-footer container">
+      <small class="copyright">&copy; MUHSID Corp</small>
+      <nav class="nav">
+        <ul>
+            <li><a href="index.html">Rankings</a></li>
+            <li><a  href="software.html">Polls</a></li>
+            <li><a  href="research.html">Coming Soon</a></li>
+            <li><a  href="activity.html">Rate a Movie</a></li>
+            <li><a  href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </body>
+</html>
