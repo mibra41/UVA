@@ -1,0 +1,26 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "babel-plugin-react-css-modules": "^5.2.4",
+    "expo": "^32.0.0",
+    "rc-time-picker": "^3.6.2",
+    "react": "16.5.0",
+    "react-clock": "^2.3.0",
+    "react-datetime-picker": "^2.3.0",
+    "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.6.0",
+    "react-time-picker": "^3.5.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "css-loader": "^2.1.1"
+  },
+  "private": true
+}
