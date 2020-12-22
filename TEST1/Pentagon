@@ -1,0 +1,28 @@
+import turtle
+
+turtle.speed('fastest')
+
+
+def draw_polygon(sides):
+    for i in range(sides):
+        turtle.forward(100)
+        turtle.right(360 / sides)
+
+sides= input('How many sides? ')
+number = int(sides)
+draw_polygon(number)
+
+
+turtle.forward(100)
+
+
+
+turtle.shape("turtle")
+turtle.turtlesize(5, 5, 12)
+
+turtle.circle(150, 270)
+
+
+turtle.mainloop()
+
+

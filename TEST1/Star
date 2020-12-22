@@ -1,0 +1,38 @@
+import turtle
+
+turtle.speed('fastest')
+
+
+def draw_star(side_length):
+    for step in range(5):
+        turtle.forward(side_length)
+        turtle.right(144)
+
+draw_star(50)
+turtle.right(36)
+turtle.penup()
+turtle.forward(100)
+turtle.pendown()
+turtle.left(36)
+draw_star(50)
+turtle.left(36)
+turtle.penup()
+turtle.forward(100)
+turtle.pendown()
+turtle.right(36)
+draw_star(50)
+turtle.left(120)
+turtle.penup()
+turtle.forward(100)
+turtle.pendown()
+turtle.right(120)
+draw_star(50)
+turtle.left(180)
+turtle.penup()
+turtle.forward(70)
+turtle.pendown()
+turtle.right(180)
+draw_star(50)
+
+turtle.mainloop()
+

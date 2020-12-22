@@ -1,0 +1,140 @@
+import turtle
+
+# slow down so I can watch
+turtle.speed('fast')
+
+lines_drawn = 0
+while lines_drawn < 3:
+    turtle.forward(100)
+    turtle.right(120)
+    lines_drawn = lines_drawn + 1
+
+
+turtle.up()
+turtle.back(150)
+turtle.down()
+
+
+for side in (1, 2, 3, 4):
+    turtle.forward(100)
+    turtle.right(90)
+turtle.up()
+turtle.back(150)
+turtle.down()
+
+
+for side in (1, 2, 3, 4):
+    turtle.forward(100)
+    turtle.right(90)
+
+
+turtle.mainloop()
+
+
+def draw_triangle():
+    for I in range(3):
+        turtle.forward(100)
+        turtle.right(120)
+
+
+def draw_pentagon():
+    for I in range(5)
+        turtle.forward(100)
+        turtle.right(360 / 5)
+
+def draw_polygon(sides, side_length):
+    for i in range(sides):
+        turtle.forward(100)
+        turtle.right(360 / sides)
+
+
+draw_polygon(3)
+draw_polygon(4)
+draw_polygon(5)
+draw_polygon(6)
+draw_polygon(7)
+draw_polygon(8)
+draw_polygon(9)
+
+
+
+def draw_square():
+    for side in (1, 2, 3, 4):
+        turtle.forward(100)
+        turtle.right(90)
+
+draw_square()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
